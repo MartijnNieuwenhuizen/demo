@@ -1,82 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="This is a description">
-		<title>Heembouw - Sprint 3</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="This is a description" />
+    <title>Heembouw - Sprint 3</title>
 
-        <style>
-            body {
-                background: #000;
-                color: #fff;
-                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            }
-            main {
-                width: 100%;
-                max-width: 1200px;
-                margin: 0 auto;
-            }
-            figure {
-                margin:  0 0 8rem;
-                padding: 0;
-            }
-            figcaption {
-                font-size: 20px;
-                font-weight: bold;
-            }
-            video {
-                width: 100%;
-                margin: 0;
-                height: auto;
-                border: 1px solid grey;
-            }
-        </style>
-	</head>
-	<body>
-		<main>
-			<h1>Demo Sprint 3</h1>
-			<figure id="video-1">
-                <video controls="true" muted="true" src="01-single-article.mov"></video>
-				<figcaption>1 - Single article</figcaption>
-			</figure>
+    <style>
+      body {
+        background: #000;
+        color: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+      main {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      figure {
+        margin: 0 0 8rem;
+        padding: 0;
+      }
+      figcaption {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      video {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        border: 1px solid grey;
+      }
+      video[data-portrait="true"] {
+        width: 320px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Demo Sprint 4</h1>
+      <figure id="video-1">
+        <video controls="true" muted="true" src="1-home-sections.mov"></video>
+        <figcaption>1 - Home, de eerste drie animaties</figcaption>
+      </figure>
 
-            <figure id="video-2">
-                <video controls="true" muted="true" src="02-sticky-story-video.mov"></video>
-				<figcaption>2 - Sticky Story Video</figcaption>
-			</figure>
+      <figure id="video-2">
+        <video controls="true" muted="true" src="2-home-onderkant.mov"></video>
+        <figcaption>
+          2 - Home, project-preview en Conversational interface
+        </figcaption>
+      </figure>
 
-            <figure id="video-3">
-                <video controls="true" muted="true" src="03-sticky-story-skiplink.mov"></video>
-				<figcaption>3 - Sticky Story Skiplink</figcaption>
-			</figure>
+      <figure id="video-3">
+        <video
+          controls="true"
+          muted="true"
+          src="3-menu-mobiel.mov"
+          data-portrait="true"
+        ></video>
+        <figcaption>3 - Mobiele navigatie</figcaption>
+      </figure>
 
-            <figure id="video-4">
-                <video controls="true" muted="true" src="04-sticky-story-before-after-cms.mov"></video>
-				<figcaption>4 - Sticky Story Before / After (CMS)</figcaption>
-			</figure>
+      {#
+      <figure id="video-4">
+        <video
+          controls="true"
+          muted="true"
+          src="04-sticky-story-before-after-cms.mov"
+        ></video>
+        <figcaption>4 - Sticky Story Before / After (CMS)</figcaption>
+      </figure>
 
-            <figure id="video-5">
-                <video controls="true" muted="true" src="05-sticky-story-before-after.mov"></video>
-				<figcaption>5 - Sticky Story Before / After</figcaption>
-			</figure>
+      <figure id="video-5">
+        <video
+          controls="true"
+          muted="true"
+          src="05-sticky-story-before-after.mov"
+        ></video>
+        <figcaption>5 - Sticky Story Before / After</figcaption>
+      </figure>
+      #}
 
-            <figure id="video-6">
-                <video controls="true" muted="true" src="06-infinite-scroll.mov"></video>
-				<figcaption>6 - Infinite Scroll</figcaption>
-			</figure>
+      <figure id="video-6">
+        <video controls="true" muted="true" src="6-project-header.mov"></video>
+        <figcaption>6 - Project detail header</figcaption>
+      </figure>
 
-            <figure id="video-7">
-                <video controls="true" muted="true" src="07-filtering.mov"></video>
-				<figcaption>7 - Filtering</figcaption>
-			</figure>
-
-            <figure id="video-8">
-                <video controls="true" muted="true" src="08-conversational-interface.mov"></video>
-				<figcaption>8 - Conversational Interface</figcaption>
-			</figure>
-		</main>
-	</body>
+      <figure id="video-7">
+        <video controls="true" muted="true" src="7-next-project.mov"></video>
+        <figcaption>7 - Volgende project</figcaption>
+      </figure>
+    </main>
+  </body>
 </html>
